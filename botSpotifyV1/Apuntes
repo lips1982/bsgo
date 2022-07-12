@@ -1,6 +1,5 @@
-git clone https://github.com/lips1982/bsgo.git && mkdir -p bsgo/img && cd bsgo && docker build -t display . && docker run -it --rm -v $PWD/img:/app/Almacenamiento/img display
+git clone https://github.com/lips1982/bsgo.git && chmod +x bsgo && cd bsgo && ./inicio.sh
 
-cd bsgo/img/ && python3 -m http.server 8080
 --> Docker google
 
 cd img/ && python3 -m http.server 8080
