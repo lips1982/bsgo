@@ -36,7 +36,7 @@ def iniciarEscritorio():
     pyautogui.screenshot(os.path.join(pathImg,f"02.1-{cuenta}-{returnEsperarAplicacion}.png"))
     if returnEsperarAplicacion:
 
-        acciones.sleep(20)
+        acciones.sleep(21)
 
         pyautogui.screenshot(os.path.join(pathImg,f"03.11-{cuenta}-Click allow Antes.png"))
         #--> Click allow
