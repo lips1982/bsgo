@@ -1,0 +1,51 @@
+git clone https://github.com/lips1982/bsgo.git && mkdir -p bsgo/img && cd bsgo && docker build -t display . && docker run -it --rm -v $PWD/img:/app/Almacenamiento/img display
+
+cd bsgo/img/ && python3 -m http.server 8080
+--> Docker google
+
+cd img/ && python3 -m http.server 8080
+
+docker build -t display . && docker run -it --rm -v $PWD/img:/app/Almacenamiento/img display && cd img/ && python3 -m http.server 8080
+
+docker run -it --rm -v $PWD/img:/app/Almacenamiento/img display && cd img/ && python3 -m http.server 8080
+
+--> Instalar sin docker
+
+apt-get install xvfb xserver-xephyr xauth python3-tk python3-dev scrot
+pip3 install -r requerimientosNeverinstall.txt
+
+
+"azuresilk05@gmail.com","passwod":"fps91507856"
+
+
+sudo rm -R /home/$USER/*
+cd /home/$USER/
+git clone https://github.com/lips1982/bsgo.git
+mkdir -p bsgo/img
+
+cd /home/$USER/bsgo
+chmod +x inicio.sh
+./inicio.sh
+
+
+
+
+
+
+apt-get -y install screen
+screen -d -m ./fichero.sh
+
+screen -S testuno -d -m bash -c "bash ./uno.sh" && screen -S testdos -d -m bash -c "bash ./dos.sh"
+
+
+cd /home/$USER
+
+mkdir -p app
+cd app
+mkdir -p img
+
+tar -Jxvf app.tar.xz
+
+docker build -t display . 
+
+docker run -it --rm -v $PWD/img:/app/Almacenamiento/img display 
