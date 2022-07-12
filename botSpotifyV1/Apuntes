@@ -1,4 +1,4 @@
-git clone https://github.com/lips1982/bsgo.git && chmod +x bsgo && cd bsgo && ./inicio.sh
+git clone https://github.com/lips1982/bsgo.git && chmod +x bsgo && cd bsgo && chmod +x inicio.sh && ./inicio.sh
 
 --> Docker google
 
