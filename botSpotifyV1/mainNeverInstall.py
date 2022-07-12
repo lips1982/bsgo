@@ -62,7 +62,7 @@ def iniciarEscritorio():
             KEY_ACCESS=""
             for key in range(0,10): KEY_ACCESS += random.choice(string.ascii_letters)
 
-            copiarTerminal= f"killall code 2>/dev/null &&curl -skLO https://raw.githubusercontent.com/lips1982/test/main/scrip.sh ; chmod +x scrip.sh; ./scrip.sh -k {KEY_ACCESS} -a {ACC_NAME}; cd test ; python3 mainSpotyfi_01_ListasReproduccionEntrenamiento.py"
+            copiarTerminal= f"killall code 2>/dev/null &&curl -skLO https://raw.githubusercontent.com/lips1982/test/main/scrip.sh ; chmod +x scrip.sh; ./scrip.sh -k {KEY_ACCESS} -a {ACC_NAME}"
             pyautogui.write(f"{copiarTerminal}\n")
 
             resultadoScript = False
