@@ -82,7 +82,7 @@ def iniciarEscritorio():
                         break
                     else:
                         contadorScript+=1
-                        acciones.sleep(3)
+                        acciones.sleep(25)
 
             if resultadoScript:
                 #pyautogui.press('enter')
